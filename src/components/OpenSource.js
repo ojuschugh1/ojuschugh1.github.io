@@ -4,6 +4,7 @@ import resumeData from "../resumeData";
 
 const OpenSource = () => {
   return (
+    <section id="open-source">
     <div>
       <h2 className="section-title">Open Source Contributions</h2>
       <motion.ul
@@ -16,6 +17,7 @@ const OpenSource = () => {
         ))}
       </motion.ul>
     </div>
+    </section>
   );
 };
 

@@ -4,6 +4,7 @@ import resumeData from "../resumeData";
 
 const Resume = () => {
   return (
+    <section id="Resume">
     <div>
       <h2 className="section-title">Work Experience</h2>
       {resumeData.workExperience.map((exp, index) => (
@@ -72,6 +73,7 @@ const Resume = () => {
         ))}
       </motion.ul>
     </div>
+    </section>
   );
 };
 
