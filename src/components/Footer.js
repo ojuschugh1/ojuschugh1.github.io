@@ -1,19 +1,18 @@
 import React from "react";
-import { motion } from "framer-motion";
+import resumeData from "../resumeData";
 
-const Footer = () => {
-  return (
-    <footer>
-      <motion.div
-        className="footer-container"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.6 }}
-      >
-        <p>&copy; {new Date().getFullYear()} OJUS CHUGH. All rights reserved.</p>
-      </motion.div>
-    </footer>
-  );
-};
+const Footer = () => (
+  <footer>
+    <div className="footer-container">
+      <div className="footer-links">
+        <a href={resumeData.contact.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href={resumeData.contact.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href={resumeData.contact.Medium} target="_blank" rel="noopener noreferrer">Medium</a>
+        <a href={resumeData.contact.GSoC} target="_blank" rel="noopener noreferrer">GSoC</a>
+      </div>
+      <p>&copy; {new Date().getFullYear()} Ojus Chugh. Built with React.</p>
+    </div>
+  </footer>
+);
 
 export default Footer;
