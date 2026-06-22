@@ -1,8 +1,8 @@
 const resumeData = {
   name: "OJUS CHUGH",
-  tagline: "Software Engineer @ Amazon | Open Source Fellow | GSoC Alum",
+  tagline: "Software Engineer | High-Scale Distributed Systems | Open Source Fellow | GSoC Alum",
   professionalSummary:
-    "Software Engineer at Amazon building high-scale delivery systems serving millions of customers. Open source advocate with contributions to the Linux Foundation, Eclipse Foundation, and Google Summer of Code. Passionate about building reliable distributed systems, developer tooling, and bridging technological divides — shaped by growing up in a small town in India with limited resources.",
+    "Software Engineer building high-scale distributed delivery systems serving millions of customers. Open source advocate with contributions to the Linux Foundation, Eclipse Foundation, and Google Summer of Code. Passionate about building reliable distributed systems, developer tooling, and bridging technological divides — shaped by growing up in a small town in India with limited resources.",
   contact: {
     email: "ojuschugh@gmail.com",
     location: "India",
@@ -23,17 +23,17 @@ const resumeData = {
   workExperience: [
     {
       title: "Software Engineer I (SDE-I)",
-      company: "Amazon Inc.",
+      company: "High-Scale Distributed Systems",
       period: "December 2025 – Present",
-      location: "IES SSD · CF Experience Prime",
+      location: "Retail Delivery Experience",
       details: [
-        "Build and operate high-scale Same Sub-Day Delivery (SSD) systems serving millions of customers across multiple marketplaces.",
+        "Build and operate high-scale same-day delivery systems serving millions of customers across multiple marketplaces.",
         "Owned end-to-end feature lifecycle including design, implementation, testing, deployment, monitoring, and post-launch validation.",
-        "Increased delivery slots from 4 → 7 in IN marketplace via Weblab rollout, improving key customer experience metrics by ~80%.",
-        "Contributed to SpeedStore Front launch across IN, BR, MX, AU — driving ~60% growth in Prime subscriptions and ~80% improvement in retention.",
-        "Resolved 10+ SEV-2 production incidents and implemented automated diagnostics to reduce recurring issue resolution time.",
-        "Implemented ML-based basket recommendation system to improve conversion rates.",
-        "Built generative-AI–driven automation for pincode onboarding, reducing operational effort."
+        "Increased delivery slot availability through a controlled experiment rollout, improving key customer experience metrics by ~80%.",
+        "Contributed to a new storefront launch across multiple international marketplaces, driving ~60% growth in subscriptions and ~80% improvement in retention.",
+        "Resolved 10+ high-severity production incidents and implemented automated diagnostics to reduce recurring issue resolution time.",
+        "Implemented an ML-based basket recommendation system to improve conversion rates.",
+        "Built generative-AI–driven automation for region onboarding, reducing operational effort."
       ]
     },
     {
@@ -287,6 +287,48 @@ const resumeData = {
       ]
     }
   ],
+  writing: [
+    {
+      title: "We Stopped Checking",
+      outlet: "Medium",
+      blurb:
+        "AI agents have learned to narrate their own work convincingly, and we have quietly started trusting the narration instead of checking it. On the gap between what a system does and what it tells you it did — and the accountability infrastructure nobody owns.",
+      tags: ["AI Agents", "Verification", "Essay"],
+      link: "https://medium.com/@ojuschugh1/we-stopped-checking-c5bfe3d3b106"
+    },
+    {
+      title: "The Context Economy",
+      outlet: "Medium",
+      blurb:
+        "The scarce resource in AI coding is not intelligence, it is attention. Why agents drown in their own intake, why we built the tools for a reader who could skim, and what scarcity quietly does to how a system behaves.",
+      tags: ["AI Agents", "Context", "Essay"],
+      link: "https://medium.com/@ojuschugh1/the-context-economy-d0182f791653"
+    },
+    {
+      title: "sqz Technical Whitepaper",
+      outlet: "In-repo · LaTeX",
+      blurb:
+        "Architecture, validation methodology, and compression benchmarks for sqz — an 8-stage instrumentation and compression pipeline for AI agent tool output, validated with 586 tests and 60 property-based proofs.",
+      tags: ["Whitepaper", "Systems", "Measurement"],
+      link: "https://github.com/ojuschugh1/sqz/blob/main/docs/whitepaper.md"
+    },
+    {
+      title: "Mastering Performance Optimization in React Applications",
+      outlet: "Medium",
+      blurb:
+        "A practical deep-dive into making React apps faster — rendering behavior, memoization, and the trade-offs that actually move the needle in production interfaces.",
+      tags: ["React", "Performance", "Engineering"],
+      link: "https://medium.com/@ojuschugh1/mastering-performance-optimization-in-react-applications-6b7449f8fc95"
+    },
+    {
+      title: "GSoC 2023 Work Product — Jakarta EE 8 to 10 Upgrade",
+      outlet: "Medium",
+      blurb:
+        "Structured technical report on the Eclipse Cargo Tracker migration completed during Google Summer of Code 2023, covering the upgrade path and compatibility work.",
+      tags: ["Open Source", "Report"],
+      link: "https://medium.com/@ojuschugh1/gsoc23-work-product-submission-a9d8cabd53c"
+    }
+  ],
   projects: [
     {
       title: "Go SDK – IBM Open Mainframe Zowe",
@@ -337,7 +379,7 @@ const resumeData = {
     "SQL Masterclass: SQL for Data Analytics"
   ],
   achievements: [
-    "Software Engineer at Amazon — building systems serving millions of customers",
+    "Software Engineer — building high-scale distributed systems serving millions of customers",
     "Linux Foundation Open Source Fellow — Go SDK for IBM Zowe",
     "Google Summer of Code — 450+ hours contributing to Eclipse Cargo Tracker",
     "Head Boy in school (2018–2019)",

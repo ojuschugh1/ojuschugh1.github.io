@@ -34,7 +34,7 @@ const About = () => (
         </motion.div>
         <div className="about-highlights">
           {[
-            { num: "Amazon", label: "Current Role" },
+            { num: "SDE", label: "Current Role" },
             { num: "3+", label: "Years Exp" },
             { num: "GSoC", label: "Alum '23" },
             { num: "LF", label: "Fellow '25" }

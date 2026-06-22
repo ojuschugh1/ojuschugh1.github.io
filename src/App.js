@@ -6,6 +6,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import Writing from "./components/Writing";
 import OpenSource from "./components/OpenSource";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Skills />
       <Resume />
+      <Writing />
       <Projects />
       <OpenSource />
       <Contact />
