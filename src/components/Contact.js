@@ -11,7 +11,6 @@ const fadeUp = {
 
 const links = [
   { icon: "✉", label: "Email", value: "ojuschugh@gmail.com", href: "mailto:ojuschugh@gmail.com" },
-  { icon: "in", label: "LinkedIn", value: "ojuschugh", href: "https://www.linkedin.com/in/ojus-chugh-364328201/" },
   { icon: "⌨", label: "GitHub", value: "ojuschugh1", href: "https://github.com/ojuschugh1" },
   { icon: "☀", label: "GSoC", value: "2023 Archive", href: "https://summerofcode.withgoogle.com/archive/2023/projects/R3i5iNpL" },
   { icon: "🐧", label: "LFX", value: "Mentorship", href: "https://mentorship.lfx.linuxfoundation.org/project/8ca351b0-168d-4b89-87ec-3a37a3c77cd1" },

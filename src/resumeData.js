@@ -6,7 +6,6 @@ const resumeData = {
   contact: {
     email: "ojuschugh@gmail.com",
     location: "India",
-    linkedin: "https://www.linkedin.com/in/ojus-chugh-364328201/",
     github: "https://github.com/ojuschugh1",
     website: "https://ojuschugh.netlify.app/",
     GSoC: "https://summerofcode.withgoogle.com/archive/2023/projects/R3i5iNpL",

@@ -46,8 +46,6 @@ const Hero = () => (
       >
         <a href={resumeData.contact.github} target="_blank" rel="noopener noreferrer">GitHub</a>
         <span className="hero-link-sep" aria-hidden="true">·</span>
-        <a href={resumeData.contact.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <span className="hero-link-sep" aria-hidden="true">·</span>
         <a href={resumeData.contact.Medium} target="_blank" rel="noopener noreferrer">Medium</a>
       </motion.div>
     </div>
